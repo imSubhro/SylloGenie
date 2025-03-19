@@ -10,8 +10,8 @@ from xhtml2pdf import pisa
 app = Flask(__name__, template_folder='.')
 
 # Ensure API key is stored securely
-# API_KEY = os.environ.get("API_KEY")
-API_KEY = "AIzaSyB6AcJTFLbIh3p4AMgFHze6QY7uChH8WR8"
+API_KEY = os.environ.get("API_KEY")
+
 
 # Directories for file storage
 UPLOAD_FOLDER = "uploads"
