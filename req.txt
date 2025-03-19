@@ -1,0 +1,5 @@
+google-genai
+flask 
+markdown2 
+google-generativeai 
+xhtml2pdf
