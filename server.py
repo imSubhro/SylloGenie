@@ -79,9 +79,16 @@ def generate():
                 types.Part.from_uri(file_uri=files[0].uri, mime_type=files[0].mime_type),
                 types.Part.from_text(
                     text=(
-                        "From the given PDF, create structured study notes for the subject "
-                        "of the. Organize content module-wise, summarize complex topics, "
-                        "highlight key points and concepts."
+                         "You are an AI-powered educational assistant specializing in summarizing study materials. "
+        "Your task is to generate detailed, structured, and exam-oriented study notes from the given PDF document. "
+        "Follow these precise guidelines:\n\n"
+        "1. **Organized Structure**: Identify the subject and break the content into sections/modules.\n"
+        "2. **Concept Simplification**: Summarize complex topics in a simplified manner.\n"
+        "3. **Highlighting Key Points**: List definitions, formulas, and key theories.\n"
+        "4. **Structured Formatting**: Use bullet points, tables, and headings.\n"
+        "5. **Practical Insights & Applications**: Include real-world examples if available.\n"
+        "6. **Final Summary & Takeaways**: Provide a quick revision checklist.\n\n"
+        "Return the output in Markdown format with proper headings, bullet points, and bold highlights."
                     )
                 ),
             ],
