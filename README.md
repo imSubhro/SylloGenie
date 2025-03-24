@@ -12,7 +12,6 @@ A simple Flask-based web application that allows users to upload their syllabus 
 ## 🛠️ Tech Stack
 - **Backend:** Flask (Python) 🐍
 - **Frontend:** HTML,Tailwind CSS🎨
-- **PDF Handling:** PyMuPDF / pdfplumber / PyPDF2 (Mention whichever library you used)
 
 ## 📦 Installation & Setup
 1. **Clone the Repository**
